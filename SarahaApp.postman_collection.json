@@ -7,7 +7,7 @@
   },
   "item": [
     {
-      "name": "user",
+      "name": "Users",
       "item": [
         {
           "name": "signup",
@@ -16,7 +16,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"userName\": \"Eslam Omar\",\r\n    \"email\": \"eslam.O.elkhabery@gmail.com\",\r\n    \"password\": \"101020013689741568Asdw\",\r\n    \"phone\": \"01063209774\"\r\n}",
+              "raw": "{\r\n    \"userName\": \"Eslam Omar\",\r\n    \"email\": \"eslam.O.elkhabery@gmail.com\",\r\n    \"password\": \"10102001As@\",\r\n    \"phone\": \"01063209774\",\r\n    \"role\": \"admin\"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -47,7 +47,7 @@
                 "header": [],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\r\n    \"userName\": \"Eslam Omar\",\r\n    \"email\": \"eslam.O.elkhabery@gmail.com\",\r\n    \"password\": \"101020013689741568Asdw\",\r\n    \"phone\": \"01063209774\"\r\n}",
+                  "raw": "{\r\n    \"userName\": \"Eslam Omar\",\r\n    \"email\": \"eslamelkhabery60@gmail.com\",\r\n    \"password\": \"10102001As@\",\r\n    \"phone\": \"01063209774\"\r\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -86,15 +86,15 @@
                 },
                 {
                   "key": "Content-Length",
-                  "value": "705"
+                  "value": "790"
                 },
                 {
                   "key": "ETag",
-                  "value": "W/\"2c1-2bTi18cmNLJuKSYK24bAW9lESMA\""
+                  "value": "W/\"316-eag6wS2MCQiwsS2ydN9RJWg7Jog\""
                 },
                 {
                   "key": "Date",
-                  "value": "Fri, 06 Feb 2026 22:14:36 GMT"
+                  "value": "Fri, 13 Feb 2026 22:23:17 GMT"
                 },
                 {
                   "key": "Connection",
@@ -106,7 +106,7 @@
                 }
               ],
               "cookie": [],
-              "body": "{\n    \"status\": \"success\",\n    \"message\": \"user created successfully\",\n    \"data\": [\n        {\n            \"firstName\": \"Eslam\",\n            \"lastName\": \"Omar\",\n            \"email\": \"eslam.O.elkhabery@gmail.com\",\n            \"password\": \"$2b$12$BCJAQXRusKynZUflcPxJ/e83D8kmpf7IA6orVurCvUiwdfQ.5AjzG\",\n            \"phoneEncrypted\": \"7f65a7d9ea9ff6581a0e8862dc1ffb33c2edbd04b091f1579774164e078fa5187629e485b86d2f38948d58d9bb091df15424b03d79ffcb456b68859977fc0f8caaa597557033443af27a7097b9af11b00b15ebbe657e2e51c1b74c6d9d78dbd1b3cf950c9722d73223fdd8\",\n            \"gender\": \"male\",\n            \"coverProfilePictures\": [],\n            \"provider\": 0,\n            \"_id\": \"698667ccc7c0cd83ec0e0aaf\",\n            \"createdAt\": \"2026-02-06T22:14:36.592Z\",\n            \"updatedAt\": \"2026-02-06T22:14:36.592Z\",\n            \"__v\": 0,\n            \"userName\": \"Eslam Omar\",\n            \"phone\": \"01063209774\",\n            \"id\": \"698667ccc7c0cd83ec0e0aaf\"\n        }\n    ]\n}"
+              "body": "{\n    \"status\": \"success\",\n    \"message\": \"user created successfully\",\n    \"data\": {\n        \"firstName\": \"Eslam\",\n        \"lastName\": \"Omar\",\n        \"email\": \"eslamelkhabery60@gmail.com\",\n        \"password\": \"$2b$10$56dt7Yrdrh/2Dky8iPCbfOYcVGVgLH/lNyKET20gvCtqcusgT8doC\",\n        \"phoneEncrypted\": \"d4b020ff04ab0c7a0849239fedb700c326a5faeaa40f4cb7c3b9c5848713fa8e94255311282b7523d0c171d9d4a19f115293ca555be1d5842941ab01f4d6158555759abcdc160c64073dfa7580f8b489faa95b850ec75b7b38109b9796d6477d03ecda4df9d353463ed5de\",\n        \"gender\": \"male\",\n        \"profilePic\": \"\",\n        \"coverProfilePictures\": [],\n        \"provider\": 0,\n        \"isVerified\": false,\n        \"role\": \"user\",\n        \"expiresAt\": \"2026-02-13T22:28:15.475Z\",\n        \"_id\": \"698fa453c3fbb48e06fcb5e0\",\n        \"createdAt\": \"2026-02-13T22:23:15.532Z\",\n        \"updatedAt\": \"2026-02-13T22:23:15.532Z\",\n        \"__v\": 0,\n        \"userName\": \"Eslam Omar\",\n        \"phone\": \"01063209774\",\n        \"id\": \"698fa453c3fbb48e06fcb5e0\"\n    }\n}"
             },
             {
               "name": "fail",
@@ -115,7 +115,7 @@
                 "header": [],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\r\n    \"userName\": \"Eslam Omar\",\r\n    \"email\": \"eslam.O.elkhabery@gmail.com\",\r\n    \"password\": \"101020013689741568Asdw\",\r\n    \"phone\": \"01063209774\"\r\n}",
+                  "raw": "{\r\n    \"userName\": \"Eslam Omar\",\r\n    \"email\": \"eslamelkhabery60@gmail.com\",\r\n    \"password\": \"10102001As@\",\r\n    \"phone\": \"01063209774\"\r\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -154,15 +154,15 @@
                 },
                 {
                   "key": "Content-Length",
-                  "value": "541"
+                  "value": "898"
                 },
                 {
                   "key": "ETag",
-                  "value": "W/\"21d-eNv2SNrXLtQsZ8Q/fvoNwwRSjzM\""
+                  "value": "W/\"382-tKaPmDaWVcvy0c26ujsShjaRNVY\""
                 },
                 {
                   "key": "Date",
-                  "value": "Fri, 06 Feb 2026 22:14:52 GMT"
+                  "value": "Fri, 13 Feb 2026 22:29:54 GMT"
                 },
                 {
                   "key": "Connection",
@@ -174,7 +174,176 @@
                 }
               ],
               "cookie": [],
-              "body": "{\n    \"status\": \"error\",\n    \"message\": \"email already exist\",\n    \"stack\": \"Error: email already exist\\n    at throwError (file:///C:/Eslam/Workspace/Training/Route/Projects/Saraha/src/common/utils/throwError.utils.js:4:9)\\n    at Module.signup (file:///C:/Eslam/Workspace/Training/Route/Projects/Saraha/src/modules/user/user.service.js:9:5)\\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\\n    at async sinupController (file:///C:/Eslam/Workspace/Training/Route/Projects/Saraha/src/modules/user/user.controller.js:6:18)\"\n}"
+              "body": "{\n    \"status\": \"error\",\n    \"message\": \"email already exist\",\n    \"stack\": \"Error: email already exist\\n    at throwError (file:///C:/Users/eslam/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main/src/common/utils/throwError.utils.js:4:9)\\n    at Module.signup (file:///C:/Users/eslam/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main/src/modules/user/user.service.js:9:5)\\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\\n    at async signupController (file:///C:/Users/eslam/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main/src/modules/user/user.controller.js:6:18)\"\n}"
+            }
+          ]
+        },
+        {
+          "name": "verify email",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"email\": \"eslam.O.elkhabery@gmail.com\",\r\n    \"otp\": \"549598\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://127.0.0.1:3000/user/verify-email",
+              "protocol": "http",
+              "host": [
+                "127",
+                "0",
+                "0",
+                "1"
+              ],
+              "port": "3000",
+              "path": [
+                "user",
+                "verify-email"
+              ]
+            }
+          },
+          "response": [
+            {
+              "name": "success",
+              "originalRequest": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"email\": \"eslamelkhabery60@gmail.com\",\r\n    \"otp\": \"148001\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://127.0.0.1:3000/user/verify-email",
+                  "protocol": "http",
+                  "host": [
+                    "127",
+                    "0",
+                    "0",
+                    "1"
+                  ],
+                  "port": "3000",
+                  "path": [
+                    "user",
+                    "verify-email"
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "X-Powered-By",
+                  "value": "Express"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json",
+                  "description": "",
+                  "type": "text"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "60"
+                },
+                {
+                  "key": "ETag",
+                  "value": "W/\"3c-ticQQomQ6IUeltMlOQ7kgMNH9FU\""
+                },
+                {
+                  "key": "Date",
+                  "value": "Fri, 13 Feb 2026 22:24:00 GMT"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=5"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n    \"status\": \"success\",\n    \"message\": \"Email verified successfully\"\n}"
+            },
+            {
+              "name": "fail",
+              "originalRequest": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"email\": \"eslamelkhabery60@gmail.com\",\r\n    \"otp\": \"148001\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://127.0.0.1:3000/user/verify-email",
+                  "protocol": "http",
+                  "host": [
+                    "127",
+                    "0",
+                    "0",
+                    "1"
+                  ],
+                  "port": "3000",
+                  "path": [
+                    "user",
+                    "verify-email"
+                  ]
+                }
+              },
+              "status": "Bad Request",
+              "code": 400,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "X-Powered-By",
+                  "value": "Express"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json",
+                  "description": "",
+                  "type": "text"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "915"
+                },
+                {
+                  "key": "ETag",
+                  "value": "W/\"393-NkOV6sYpglVCI02MfK0oRYiOQhU\""
+                },
+                {
+                  "key": "Date",
+                  "value": "Fri, 13 Feb 2026 22:30:03 GMT"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=5"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n    \"status\": \"error\",\n    \"message\": \"Email already verified\",\n    \"stack\": \"Error: Email already verified\\n    at throwError (file:///C:/Users/eslam/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main/src/common/utils/throwError.utils.js:4:9)\\n    at Module.verifyOtp (file:///C:/Users/eslam/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main/src/modules/user/user.service.js:100:5)\\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\\n    at async verifyEmailController (file:///C:/Users/eslam/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main/src/modules/user/user.controller.js:34:20)\"\n}"
             }
           ]
         },
@@ -185,7 +354,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"email\": \"eslam.O.elkhabery@gmail.com\",\r\n    \"password\": \"101020013689741568Asdw\"\r\n}",
+              "raw": "{\r\n    \"email\": \"eslam.O.elkhabery@gmail.com\",\r\n    \"password\": \"10102001As@\"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -216,7 +385,7 @@
                 "header": [],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\r\n    \"email\": \"eslam.O.elkhabery@gmail.com\",\r\n    \"password\": \"101020013689741568Asdw\"\r\n}",
+                  "raw": "{\r\n    \"email\": \"eslamelkhabery60@gmail.com\",\r\n    \"password\": \"10102001As@\"\r\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -255,15 +424,15 @@
                 },
                 {
                   "key": "Content-Length",
-                  "value": "631"
+                  "value": "1142"
                 },
                 {
                   "key": "ETag",
-                  "value": "W/\"277-aJvGDtLeoKbY3uHZ618zEmNRafM\""
+                  "value": "W/\"476-A9h0L9FJiXDspv+MfpnzcAC6jh4\""
                 },
                 {
                   "key": "Date",
-                  "value": "Fri, 06 Feb 2026 22:15:03 GMT"
+                  "value": "Fri, 13 Feb 2026 22:24:20 GMT"
                 },
                 {
                   "key": "Connection",
@@ -275,7 +444,7 @@
                 }
               ],
               "cookie": [],
-              "body": "{\n    \"status\": \"success\",\n    \"message\": \"user logged in successfully\",\n    \"data\": {\n        \"_id\": \"698667ccc7c0cd83ec0e0aaf\",\n        \"firstName\": \"Eslam\",\n        \"lastName\": \"Omar\",\n        \"email\": \"eslam.O.elkhabery@gmail.com\",\n        \"phoneEncrypted\": \"7f65a7d9ea9ff6581a0e8862dc1ffb33c2edbd04b091f1579774164e078fa5187629e485b86d2f38948d58d9bb091df15424b03d79ffcb456b68859977fc0f8caaa597557033443af27a7097b9af11b00b15ebbe657e2e51c1b74c6d9d78dbd1b3cf950c9722d73223fdd8\",\n        \"gender\": \"male\",\n        \"coverProfilePictures\": [],\n        \"provider\": 0,\n        \"createdAt\": \"2026-02-06T22:14:36.592Z\",\n        \"updatedAt\": \"2026-02-06T22:14:36.592Z\",\n        \"__v\": 0,\n        \"userName\": \"Eslam Omar\",\n        \"phone\": \"01063209774\",\n        \"id\": \"698667ccc7c0cd83ec0e0aaf\"\n    }\n}"
+              "body": "{\n    \"status\": \"success\",\n    \"message\": \"user logged in successfully\",\n    \"data\": {\n        \"user\": {\n            \"_id\": \"698fa453c3fbb48e06fcb5e0\",\n            \"firstName\": \"Eslam\",\n            \"lastName\": \"Omar\",\n            \"email\": \"eslamelkhabery60@gmail.com\",\n            \"phoneEncrypted\": \"d4b020ff04ab0c7a0849239fedb700c326a5faeaa40f4cb7c3b9c5848713fa8e94255311282b7523d0c171d9d4a19f115293ca555be1d5842941ab01f4d6158555759abcdc160c64073dfa7580f8b489faa95b850ec75b7b38109b9796d6477d03ecda4df9d353463ed5de\",\n            \"gender\": \"male\",\n            \"profilePic\": \"\",\n            \"coverProfilePictures\": [],\n            \"provider\": 0,\n            \"isVerified\": true,\n            \"role\": \"user\",\n            \"createdAt\": \"2026-02-13T22:23:15.532Z\",\n            \"updatedAt\": \"2026-02-13T22:24:00.696Z\",\n            \"__v\": 1,\n            \"confirmEmail\": \"2026-02-13T22:24:00.696Z\",\n            \"userName\": \"Eslam Omar\",\n            \"phone\": \"01063209774\",\n            \"id\": \"698fa453c3fbb48e06fcb5e0\"\n        },\n        \"accessToken\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OGZhNDUzYzNmYmI0OGUwNmZjYjVlMCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzcxMDIxNDYwLCJleHAiOjE3NzEwMjUwNjB9.NBP_aPFhLHtQzfK_GtdpXK5Hs2MKmu7-kwSYCrAUcSQ\",\n        \"refreshToken\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OGZhNDUzYzNmYmI0OGUwNmZjYjVlMCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzcxMDIxNDYwLCJleHAiOjE3NzE2MjYyNjB9.kpJLw9L3KcakkN2L6j6Uz70dgs0Y_Oiyk9sDq4PHXLg\"\n    }\n}"
             },
             {
               "name": "fail",
@@ -284,7 +453,7 @@
                 "header": [],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\r\n    \"email\": \"eslam.O.elkhabery@gmail.com\",\r\n    \"password\": \"101020013689741568Asw\"\r\n}",
+                  "raw": "{\r\n    \"email\": \"eslamelkhabery60@gmail.com\",\r\n    \"password\": \"10102001As\"\r\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -323,15 +492,15 @@
                 },
                 {
                   "key": "Content-Length",
-                  "value": "470"
+                  "value": "827"
                 },
                 {
                   "key": "ETag",
-                  "value": "W/\"1d6-S+r5mNeGk/wEdeDyoR/3xu9egmU\""
+                  "value": "W/\"33b-JAWkg7P0dBXycCrjLSOBuUfgBzk\""
                 },
                 {
                   "key": "Date",
-                  "value": "Fri, 06 Feb 2026 22:15:26 GMT"
+                  "value": "Fri, 13 Feb 2026 22:36:51 GMT"
                 },
                 {
                   "key": "Connection",
@@ -343,7 +512,760 @@
                 }
               ],
               "cookie": [],
-              "body": "{\n    \"status\": \"error\",\n    \"message\": \"Invalid email or password\",\n    \"stack\": \"Error: Invalid email or password\\n    at throwError (file:///C:/Eslam/Workspace/Training/Route/Projects/Saraha/src/common/utils/throwError.utils.js:4:9)\\n    at Module.login (file:///C:/Eslam/Workspace/Training/Route/Projects/Saraha/src/modules/user/user.service.js:31:5)\\n    at async loginController (file:///C:/Eslam/Workspace/Training/Route/Projects/Saraha/src/modules/user/user.controller.js:20:18)\"\n}"
+              "body": "{\n    \"status\": \"error\",\n    \"message\": \"Invalid email or password\",\n    \"stack\": \"Error: Invalid email or password\\n    at throwError (file:///C:/Users/eslam/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main/src/common/utils/throwError.utils.js:4:9)\\n    at Module.login (file:///C:/Users/eslam/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main/src/modules/user/user.service.js:72:5)\\n    at async loginController (file:///C:/Users/eslam/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main/src/modules/user/user.controller.js:20:18)\"\n}"
+            }
+          ]
+        },
+        {
+          "name": "refreshToken",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "url": {
+              "raw": "http://127.0.0.1:3000/user/refresh-token",
+              "protocol": "http",
+              "host": [
+                "127",
+                "0",
+                "0",
+                "1"
+              ],
+              "port": "3000",
+              "path": [
+                "user",
+                "refresh-token"
+              ]
+            }
+          },
+          "response": [
+            {
+              "name": "success",
+              "originalRequest": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OGZhNDUzYzNmYmI0OGUwNmZjYjVlMCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzcxMDIyMTIzLCJleHAiOjE3NzE2MjY5MjN9.fFlt20b5SKP3mit41j4_kTqD5SGoj0MwYo22lPU0fTg",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": ""
+                },
+                "url": {
+                  "raw": "http://127.0.0.1:3000/user/refresh-token",
+                  "protocol": "http",
+                  "host": [
+                    "127",
+                    "0",
+                    "0",
+                    "1"
+                  ],
+                  "port": "3000",
+                  "path": [
+                    "user",
+                    "refresh-token"
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "X-Powered-By",
+                  "value": "Express"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json",
+                  "description": "",
+                  "type": "text"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "276"
+                },
+                {
+                  "key": "ETag",
+                  "value": "W/\"114-QXwqnTVi9iNEkSZ8DWjb1a5aqFM\""
+                },
+                {
+                  "key": "Date",
+                  "value": "Fri, 13 Feb 2026 22:36:19 GMT"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=5"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n    \"status\": \"success\",\n    \"message\": \"Token refreshed successfully\",\n    \"data\": {\n        \"accessToken\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OGZhNDUzYzNmYmI0OGUwNmZjYjVlMCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzcxMDIyMTc5LCJleHAiOjE3NzEwMjU3Nzl9.Lsdd41pR00PPyNylsOjDb2TSS5DdEk26ajZfIGfjT5k\"\n    }\n}"
+            },
+            {
+              "name": "fail",
+              "originalRequest": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OGZhNDUzYzNmYmI0OGUwNmZjYjVlMCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzcxMDIxNDYwLCJleHAiOjE3NzEwMjUwNjB9.NBP_aPFhLHtQzfK_GtdpXK5Hs2MKmu7-kwSYCrAUcSQ",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": ""
+                },
+                "url": {
+                  "raw": "http://127.0.0.1:3000/user/refresh-token",
+                  "protocol": "http",
+                  "host": [
+                    "127",
+                    "0",
+                    "0",
+                    "1"
+                  ],
+                  "port": "3000",
+                  "path": [
+                    "user",
+                    "refresh-token"
+                  ]
+                }
+              },
+              "status": "Unauthorized",
+              "code": 401,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "X-Powered-By",
+                  "value": "Express"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json",
+                  "description": "",
+                  "type": "text"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "2243"
+                },
+                {
+                  "key": "ETag",
+                  "value": "W/\"8c3-rfzt6IyEBaAwiKYSd5IVnEePLlc\""
+                },
+                {
+                  "key": "Date",
+                  "value": "Fri, 13 Feb 2026 22:33:26 GMT"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=5"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n    \"status\": \"error\",\n    \"message\": \"Invalid or expired refresh token\",\n    \"stack\": \"Error: Invalid or expired refresh token\\n    at throwError (file:///C:/Users/eslam/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main/src/common/utils/throwError.utils.js:4:9)\\n    at Module.refreshToken (file:///C:/Users/eslam/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main/src/modules/user/user.service.js:136:5)\\n    at refreshTokenController (file:///C:/Users/eslam/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main/src/modules/user/user.controller.js:47:38)\\n    at Layer.handleRequest (C:\\\\Users\\\\eslam\\\\OneDrive\\\\سطح المكتب\\\\Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main\\\\node_modules\\\\router\\\\lib\\\\layer.js:152:17)\\n    at next (C:\\\\Users\\\\eslam\\\\OneDrive\\\\سطح المكتب\\\\Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main\\\\node_modules\\\\router\\\\lib\\\\route.js:157:13)\\n    at Route.dispatch (C:\\\\Users\\\\eslam\\\\OneDrive\\\\سطح المكتب\\\\Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main\\\\node_modules\\\\router\\\\lib\\\\route.js:117:3)\\n    at handle (C:\\\\Users\\\\eslam\\\\OneDrive\\\\سطح المكتب\\\\Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main\\\\node_modules\\\\router\\\\index.js:435:11)\\n    at Layer.handleRequest (C:\\\\Users\\\\eslam\\\\OneDrive\\\\سطح المكتب\\\\Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main\\\\node_modules\\\\router\\\\lib\\\\layer.js:152:17)\\n    at C:\\\\Users\\\\eslam\\\\OneDrive\\\\سطح المكتب\\\\Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main\\\\node_modules\\\\router\\\\index.js:295:15\\n    at processParams (C:\\\\Users\\\\eslam\\\\OneDrive\\\\سطح المكتب\\\\Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main\\\\node_modules\\\\router\\\\index.js:582:12)\"\n}"
+            }
+          ]
+        },
+        {
+          "name": "profile",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "authorization",
+                "value": "Bearer eyJhbGciOiIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OGZhNDUzYzNmYmI0OGUwNmZjYjVlMCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzcxMDIxNDYwLCJleHAiOjE3NzEwMjUwNjB9.NBP_aPFhLHtQzfK_GtdpXK5Hs2MKmu7-kwSYCrAUcSQ",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"email\": \"eslamelkhabery60@gmail.com\",\r\n    \"password\": \"10102001As@\"\r\n}"
+            },
+            "url": {
+              "raw": "http://127.0.0.1:3000/user/profile",
+              "protocol": "http",
+              "host": [
+                "127",
+                "0",
+                "0",
+                "1"
+              ],
+              "port": "3000",
+              "path": [
+                "user",
+                "profile"
+              ]
+            }
+          },
+          "response": [
+            {
+              "name": "success",
+              "originalRequest": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OGZhNDUzYzNmYmI0OGUwNmZjYjVlMCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzcxMDIxNDYwLCJleHAiOjE3NzEwMjUwNjB9.NBP_aPFhLHtQzfK_GtdpXK5Hs2MKmu7-kwSYCrAUcSQ",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"email\": \"eslamelkhabery60@gmail.com\",\r\n    \"password\": \"10102001As@\"\r\n}"
+                },
+                "url": {
+                  "raw": "http://127.0.0.1:3000/user/profile",
+                  "protocol": "http",
+                  "host": [
+                    "127",
+                    "0",
+                    "0",
+                    "1"
+                  ],
+                  "port": "3000",
+                  "path": [
+                    "user",
+                    "profile"
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "X-Powered-By",
+                  "value": "Express"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json",
+                  "description": "",
+                  "type": "text"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "754"
+                },
+                {
+                  "key": "ETag",
+                  "value": "W/\"2f2-JhDyH9LXN2ZPKy3zltmvNoqW0/I\""
+                },
+                {
+                  "key": "Date",
+                  "value": "Fri, 13 Feb 2026 22:45:36 GMT"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=5"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n    \"status\": \"success\",\n    \"data\": {\n        \"_id\": \"698fa453c3fbb48e06fcb5e0\",\n        \"firstName\": \"Eslam\",\n        \"lastName\": \"Omar\",\n        \"email\": \"eslamelkhabery60@gmail.com\",\n        \"password\": \"$2b$10$56dt7Yrdrh/2Dky8iPCbfOYcVGVgLH/lNyKET20gvCtqcusgT8doC\",\n        \"phoneEncrypted\": \"d4b020ff04ab0c7a0849239fedb700c326a5faeaa40f4cb7c3b9c5848713fa8e94255311282b7523d0c171d9d4a19f115293ca555be1d5842941ab01f4d6158555759abcdc160c64073dfa7580f8b489faa95b850ec75b7b38109b9796d6477d03ecda4df9d353463ed5de\",\n        \"gender\": \"male\",\n        \"profilePic\": \"\",\n        \"coverProfilePictures\": [],\n        \"provider\": 0,\n        \"isVerified\": true,\n        \"role\": \"user\",\n        \"createdAt\": \"2026-02-13T22:23:15.532Z\",\n        \"updatedAt\": \"2026-02-13T22:24:00.696Z\",\n        \"__v\": 1,\n        \"confirmEmail\": \"2026-02-13T22:24:00.696Z\",\n        \"userName\": \"Eslam Omar\",\n        \"phone\": \"01063209774\",\n        \"id\": \"698fa453c3fbb48e06fcb5e0\"\n    }\n}"
+            },
+            {
+              "name": "fail",
+              "originalRequest": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "authorization",
+                    "value": "Bearer eyJhbGciOiIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OGZhNDUzYzNmYmI0OGUwNmZjYjVlMCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzcxMDIxNDYwLCJleHAiOjE3NzEwMjUwNjB9.NBP_aPFhLHtQzfK_GtdpXK5Hs2MKmu7-kwSYCrAUcSQ",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"email\": \"eslamelkhabery60@gmail.com\",\r\n    \"password\": \"10102001As@\"\r\n}"
+                },
+                "url": {
+                  "raw": "http://127.0.0.1:3000/user/profile",
+                  "protocol": "http",
+                  "host": [
+                    "127",
+                    "0",
+                    "0",
+                    "1"
+                  ],
+                  "port": "3000",
+                  "path": [
+                    "user",
+                    "profile"
+                  ]
+                }
+              },
+              "status": "Internal Server Error",
+              "code": 500,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "X-Powered-By",
+                  "value": "Express"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json",
+                  "description": "",
+                  "type": "text"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "2104"
+                },
+                {
+                  "key": "ETag",
+                  "value": "W/\"838-QM/YdedYQnqQxu6jsr7uY3XMh7I\""
+                },
+                {
+                  "key": "Date",
+                  "value": "Fri, 13 Feb 2026 22:49:07 GMT"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=5"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n    \"status\": \"error\",\n    \"message\": \"Invalid token\",\n    \"stack\": \"Error: Invalid token\\n    at authenticate (file:///C:/Users/eslam/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main/src/common/middleware/auth.middleware.js:31:25)\\n    at Layer.handleRequest (C:\\\\Users\\\\eslam\\\\OneDrive\\\\سطح المكتب\\\\Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main\\\\node_modules\\\\router\\\\lib\\\\layer.js:152:17)\\n    at next (C:\\\\Users\\\\eslam\\\\OneDrive\\\\سطح المكتب\\\\Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main\\\\node_modules\\\\router\\\\lib\\\\route.js:157:13)\\n    at Route.dispatch (C:\\\\Users\\\\eslam\\\\OneDrive\\\\سطح المكتب\\\\Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main\\\\node_modules\\\\router\\\\lib\\\\route.js:117:3)\\n    at handle (C:\\\\Users\\\\eslam\\\\OneDrive\\\\سطح المكتب\\\\Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main\\\\node_modules\\\\router\\\\index.js:435:11)\\n    at Layer.handleRequest (C:\\\\Users\\\\eslam\\\\OneDrive\\\\سطح المكتب\\\\Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main\\\\node_modules\\\\router\\\\lib\\\\layer.js:152:17)\\n    at C:\\\\Users\\\\eslam\\\\OneDrive\\\\سطح المكتب\\\\Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main\\\\node_modules\\\\router\\\\index.js:295:15\\n    at processParams (C:\\\\Users\\\\eslam\\\\OneDrive\\\\سطح المكتب\\\\Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main\\\\node_modules\\\\router\\\\index.js:582:12)\\n    at next (C:\\\\Users\\\\eslam\\\\OneDrive\\\\سطح المكتب\\\\Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main\\\\node_modules\\\\router\\\\index.js:291:5)\\n    at Function.handle (C:\\\\Users\\\\eslam\\\\OneDrive\\\\سطح المكتب\\\\Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main\\\\node_modules\\\\router\\\\index.js:186:3)\"\n}"
+            }
+          ]
+        },
+        {
+          "name": "admin-only",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "authorization",
+                "value": "Bearer eyJhbGciOiIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OGZhNDUzYzNmYmI0OGUwNmZjYjVlMCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzcxMDIxNDYwLCJleHAiOjE3NzEwMjUwNjB9.NBP_aPFhLHtQzfK_GtdpXK5Hs2MKmu7-kwSYCrAUcSQ",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"email\": \"eslamelkhabery60@gmail.com\",\r\n    \"password\": \"10102001As@\"\r\n}"
+            },
+            "url": {
+              "raw": "http://127.0.0.1:3000/user/admin-only",
+              "protocol": "http",
+              "host": [
+                "127",
+                "0",
+                "0",
+                "1"
+              ],
+              "port": "3000",
+              "path": [
+                "user",
+                "admin-only"
+              ]
+            }
+          },
+          "response": [
+            {
+              "name": "success",
+              "originalRequest": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OGZhODY4ZGZlY2I5YzIxMjI4OWRjNiIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc3MTAyMzMzNSwiZXhwIjoxNzcxMDI2OTM1fQ.5dL1Ud5lfaZGc3zVJDnfSvt7548wYSJ1YR4o7MFSun8",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"email\": \"eslamelkhabery60@gmail.com\",\r\n    \"password\": \"10102001As@\"\r\n}"
+                },
+                "url": {
+                  "raw": "http://127.0.0.1:3000/user/admin-only",
+                  "protocol": "http",
+                  "host": [
+                    "127",
+                    "0",
+                    "0",
+                    "1"
+                  ],
+                  "port": "3000",
+                  "path": [
+                    "user",
+                    "admin-only"
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "X-Powered-By",
+                  "value": "Express"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json",
+                  "description": "",
+                  "type": "text"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "46"
+                },
+                {
+                  "key": "ETag",
+                  "value": "W/\"2e-U/lc+zhYVN4j5JaEE3axefppQxY\""
+                },
+                {
+                  "key": "Date",
+                  "value": "Fri, 13 Feb 2026 22:55:47 GMT"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=5"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n    \"status\": \"success\",\n    \"message\": \"Welcome Admin\"\n}"
+            },
+            {
+              "name": "fail",
+              "originalRequest": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "authorization",
+                    "value": "Bearer eyJhbGciOiIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OGZhNDUzYzNmYmI0OGUwNmZjYjVlMCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzcxMDIxNDYwLCJleHAiOjE3NzEwMjUwNjB9.NBP_aPFhLHtQzfK_GtdpXK5Hs2MKmu7-kwSYCrAUcSQ",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"email\": \"eslamelkhabery60@gmail.com\",\r\n    \"password\": \"10102001As@\"\r\n}"
+                },
+                "url": {
+                  "raw": "http://127.0.0.1:3000/user/admin-only",
+                  "protocol": "http",
+                  "host": [
+                    "127",
+                    "0",
+                    "0",
+                    "1"
+                  ],
+                  "port": "3000",
+                  "path": [
+                    "user",
+                    "admin-only"
+                  ]
+                }
+              },
+              "status": "Internal Server Error",
+              "code": 500,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "X-Powered-By",
+                  "value": "Express"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json",
+                  "description": "",
+                  "type": "text"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "2104"
+                },
+                {
+                  "key": "ETag",
+                  "value": "W/\"838-QM/YdedYQnqQxu6jsr7uY3XMh7I\""
+                },
+                {
+                  "key": "Date",
+                  "value": "Fri, 13 Feb 2026 22:56:19 GMT"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=5"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n    \"status\": \"error\",\n    \"message\": \"Invalid token\",\n    \"stack\": \"Error: Invalid token\\n    at authenticate (file:///C:/Users/eslam/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main/src/common/middleware/auth.middleware.js:31:25)\\n    at Layer.handleRequest (C:\\\\Users\\\\eslam\\\\OneDrive\\\\سطح المكتب\\\\Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main\\\\node_modules\\\\router\\\\lib\\\\layer.js:152:17)\\n    at next (C:\\\\Users\\\\eslam\\\\OneDrive\\\\سطح المكتب\\\\Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main\\\\node_modules\\\\router\\\\lib\\\\route.js:157:13)\\n    at Route.dispatch (C:\\\\Users\\\\eslam\\\\OneDrive\\\\سطح المكتب\\\\Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main\\\\node_modules\\\\router\\\\lib\\\\route.js:117:3)\\n    at handle (C:\\\\Users\\\\eslam\\\\OneDrive\\\\سطح المكتب\\\\Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main\\\\node_modules\\\\router\\\\index.js:435:11)\\n    at Layer.handleRequest (C:\\\\Users\\\\eslam\\\\OneDrive\\\\سطح المكتب\\\\Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main\\\\node_modules\\\\router\\\\lib\\\\layer.js:152:17)\\n    at C:\\\\Users\\\\eslam\\\\OneDrive\\\\سطح المكتب\\\\Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main\\\\node_modules\\\\router\\\\index.js:295:15\\n    at processParams (C:\\\\Users\\\\eslam\\\\OneDrive\\\\سطح المكتب\\\\Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main\\\\node_modules\\\\router\\\\index.js:582:12)\\n    at next (C:\\\\Users\\\\eslam\\\\OneDrive\\\\سطح المكتب\\\\Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main\\\\node_modules\\\\router\\\\index.js:291:5)\\n    at Function.handle (C:\\\\Users\\\\eslam\\\\OneDrive\\\\سطح المكتب\\\\Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main\\\\node_modules\\\\router\\\\index.js:186:3)\"\n}"
+            }
+          ]
+        },
+        {
+          "name": "upload image",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "authorization",
+                "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OGZhNDUzYzNmYmI0OGUwNmZjYjVlMCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzcxMDIzOTgxLCJleHAiOjE3NzEwMjc1ODF9.3xWS6khLl13eGvqcGLis5gpuQQSCewo6tZ1pm367iGo",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "image",
+                  "type": "file",
+                  "uuid": "e06ccaa0-5dfc-407d-b2d2-d3d24603f90a",
+                  "src": "/C:/Users/eslam/Downloads/WhatsApp Image 2026-01-29 at 11.57.04 PM.jpeg"
+                }
+              ]
+            },
+            "url": {
+              "raw": "http://127.0.0.1:3000/user/upload-profile-pic",
+              "protocol": "http",
+              "host": [
+                "127",
+                "0",
+                "0",
+                "1"
+              ],
+              "port": "3000",
+              "path": [
+                "user",
+                "upload-profile-pic"
+              ]
+            }
+          },
+          "response": [
+            {
+              "name": "success",
+              "originalRequest": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OGZhNDUzYzNmYmI0OGUwNmZjYjVlMCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzcxMDIzOTgxLCJleHAiOjE3NzEwMjc1ODF9.3xWS6khLl13eGvqcGLis5gpuQQSCewo6tZ1pm367iGo",
+                    "type": "text"
+                  }
+                ],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "image",
+                      "type": "file",
+                      "uuid": "e06ccaa0-5dfc-407d-b2d2-d3d24603f90a",
+                      "src": "/C:/Users/eslam/Downloads/WhatsApp Image 2026-01-29 at 11.57.04 PM.jpeg"
+                    }
+                  ],
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://127.0.0.1:3000/user/upload-profile-pic",
+                  "protocol": "http",
+                  "host": [
+                    "127",
+                    "0",
+                    "0",
+                    "1"
+                  ],
+                  "port": "3000",
+                  "path": [
+                    "user",
+                    "upload-profile-pic"
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "X-Powered-By",
+                  "value": "Express"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json",
+                  "description": "",
+                  "type": "text"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "170"
+                },
+                {
+                  "key": "ETag",
+                  "value": "W/\"aa-9bChDSOvsISA/hJ3jpZSVT35FJw\""
+                },
+                {
+                  "key": "Date",
+                  "value": "Fri, 13 Feb 2026 23:09:15 GMT"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=5"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n    \"status\": \"success\",\n    \"message\": \"Profile picture uploaded successfully\",\n    \"data\": {\n        \"imageUrl\": \"http://127.0.0.1:3000/uploads/profile-pics/image-1771024154951-496513040.jpeg\"\n    }\n}"
+            }
+          ]
+        },
+        {
+          "name": "signup/login with google",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "authorization",
+                "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OGZhNDUzYzNmYmI0OGUwNmZjYjVlMCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzcxMDIzOTgxLCJleHAiOjE3NzEwMjc1ODF9.3xWS6khLl13eGvqcGLis5gpuQQSCewo6tZ1pm367iGo",
+                "type": "text",
+                "disabled": true
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"idToken\": \"ya29.a0AUMWg_KbO2SBA7Ceb_Zknhx3T58U1dG69ltZk8KrDozjfgEp8puFxR2A3WfjCEIc-IRtwal76moC7SR7IaxpMovcYYdclM3jpN9nN024tyQrL4FIxj_J9HE2p7H3xLjxUzS42arVz3hiWC7DV3dp8NdeZbIRynbl56e5SWYayHWyn7pV5nCXevtgF_gfOkDyQoaMquEaCgYKAVkSARQSFQHGX2MiXGHjSAVJIMWiUWWW9ZH8Lg0206\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://127.0.0.1:3000/user/google-auth",
+              "protocol": "http",
+              "host": [
+                "127",
+                "0",
+                "0",
+                "1"
+              ],
+              "port": "3000",
+              "path": [
+                "user",
+                "google-auth"
+              ]
+            }
+          },
+          "response": [
+            {
+              "name": "fail",
+              "originalRequest": {
+                "method": "POST",
+                "header": [
+                  {
+                    "key": "authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OGZhNDUzYzNmYmI0OGUwNmZjYjVlMCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzcxMDIzOTgxLCJleHAiOjE3NzEwMjc1ODF9.3xWS6khLl13eGvqcGLis5gpuQQSCewo6tZ1pm367iGo",
+                    "type": "text",
+                    "disabled": true
+                  }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\r\n    \"idToken\": \"ya29.a0AUMWg_KbO2SBA7Ceb_Zknhx3T58U1dG69ltZk8KrDozjfgEp8puFxR2A3WfjCEIc-IRtwal76moC7SR7IaxpMovcYYdclM3jpN9nN024tyQrL4FIxj_J9HE2p7H3xLjxUzS42arVz3hiWC7DV3dp8NdeZbIRynbl56e5SWYayHWyn7pV5nCXevtgF_gfOkDyQoaMquEaCgYKAVkSARQSFQHGX2MiXGHjSAVJIMWiUWWW9ZH8Lg0206\"\r\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                },
+                "url": {
+                  "raw": "http://127.0.0.1:3000/user/google-auth",
+                  "protocol": "http",
+                  "host": [
+                    "127",
+                    "0",
+                    "0",
+                    "1"
+                  ],
+                  "port": "3000",
+                  "path": [
+                    "user",
+                    "google-auth"
+                  ]
+                }
+              },
+              "status": "Unauthorized",
+              "code": 401,
+              "_postman_previewlanguage": "json",
+              "header": [
+                {
+                  "key": "X-Powered-By",
+                  "value": "Express"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json",
+                  "description": "",
+                  "type": "text"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "926"
+                },
+                {
+                  "key": "ETag",
+                  "value": "W/\"39e-UexqjSWrPKFy7dXjUTOqRlQ7mi4\""
+                },
+                {
+                  "key": "Date",
+                  "value": "Sat, 14 Feb 2026 00:09:49 GMT"
+                },
+                {
+                  "key": "Connection",
+                  "value": "keep-alive"
+                },
+                {
+                  "key": "Keep-Alive",
+                  "value": "timeout=5"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n    \"status\": \"error\",\n    \"message\": \"Invalid Google token\",\n    \"stack\": \"Error: Invalid Google token\\n    at throwError (file:///C:/Users/eslam/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main/src/common/utils/throwError.utils.js:4:9)\\n    at Module.continueWithGoogle (file:///C:/Users/eslam/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main/src/modules/user/user.service.js:49:5)\\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\\n    at async continueWithGoogleController (file:///C:/Users/eslam/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/Eslam-Omar-Mohamed_C45-Node.js-Saturday-10AM-4PM--Dokki-_Assignment10_01063209774-main/src/modules/user/user.controller.js:82:20)\"\n}"
             }
           ]
         }
