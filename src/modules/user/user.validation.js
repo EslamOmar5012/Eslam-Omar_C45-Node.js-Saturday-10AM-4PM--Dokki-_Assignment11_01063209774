@@ -1,10 +1,11 @@
 import Joi from "joi";
-import { GenderEnum } from "../../common/index.js";
+import { GenderEnum, RoleEnum } from "../../common/index.js";
 
 export const signupSchema = {
     body: Joi.object({
-        firstName: Joi.string().min(2).max(25).required(),
-        lastName: Joi.string().min(2).max(25).required(),
+        firstName: Joi.string().min(2).max(25),
+        lastName: Joi.string().min(2).max(25),
+        userName: Joi.string().min(3).max(50),
         email: Joi.string().email().required(),
         password: Joi.string().min(8).regex(/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/).required().messages({
             'string.pattern.base': 'Password must contain at least one uppercase letter, one lowercase letter, one number and one special character',
@@ -12,7 +13,9 @@ export const signupSchema = {
         }),
         phone: Joi.string().required(),
         gender: Joi.string().valid(GenderEnum.male, GenderEnum.female),
-    }).required(),
+        role: Joi.string().valid(RoleEnum.user, RoleEnum.admin),
+    }).oxor('userName', 'firstName') // userName OR firstName/lastName
+        .required(),
 };
 
 export const loginSchema = {

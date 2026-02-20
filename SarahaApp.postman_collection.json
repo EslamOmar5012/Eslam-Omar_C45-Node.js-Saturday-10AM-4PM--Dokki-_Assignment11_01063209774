@@ -16,7 +16,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"userName\": \"Eslam Omar\",\r\n    \"email\": \"eslam.O.elkhabery@gmail.com\",\r\n    \"password\": \"10102001As@\",\r\n    \"phone\": \"01063209774\",\r\n    \"role\": \"admin\"\r\n}",
+              "raw": "{\r\n    \"userName\": \"Eslam Omar\",\r\n    \"email\": \"eslamelkhabery60@gmail.com\",\r\n    \"password\": \"10102001As@\",\r\n    \"phone\": \"01063209774\",\r\n    \"role\": \"admin\"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -47,7 +47,7 @@
                 "header": [],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\r\n    \"userName\": \"Eslam Omar\",\r\n    \"email\": \"eslamelkhabery60@gmail.com\",\r\n    \"password\": \"10102001As@\",\r\n    \"phone\": \"01063209774\"\r\n}",
+                  "raw": "{\r\n    \"userName\": \"Eslam Omar\",\r\n    \"email\": \"eslamelkhabery60@gmail.com\",\r\n    \"password\": \"10102001As@\",\r\n    \"phone\": \"01063209774\",\r\n    \"role\": \"admin\"\r\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -86,15 +86,15 @@
                 },
                 {
                   "key": "Content-Length",
-                  "value": "790"
+                  "value": "791"
                 },
                 {
                   "key": "ETag",
-                  "value": "W/\"316-eag6wS2MCQiwsS2ydN9RJWg7Jog\""
+                  "value": "W/\"317-i4dygEs4Llz8HM1QEYb7pJL0SMQ\""
                 },
                 {
                   "key": "Date",
-                  "value": "Fri, 13 Feb 2026 22:23:17 GMT"
+                  "value": "Fri, 20 Feb 2026 23:38:10 GMT"
                 },
                 {
                   "key": "Connection",
@@ -106,7 +106,7 @@
                 }
               ],
               "cookie": [],
-              "body": "{\n    \"status\": \"success\",\n    \"message\": \"user created successfully\",\n    \"data\": {\n        \"firstName\": \"Eslam\",\n        \"lastName\": \"Omar\",\n        \"email\": \"eslamelkhabery60@gmail.com\",\n        \"password\": \"$2b$10$56dt7Yrdrh/2Dky8iPCbfOYcVGVgLH/lNyKET20gvCtqcusgT8doC\",\n        \"phoneEncrypted\": \"d4b020ff04ab0c7a0849239fedb700c326a5faeaa40f4cb7c3b9c5848713fa8e94255311282b7523d0c171d9d4a19f115293ca555be1d5842941ab01f4d6158555759abcdc160c64073dfa7580f8b489faa95b850ec75b7b38109b9796d6477d03ecda4df9d353463ed5de\",\n        \"gender\": \"male\",\n        \"profilePic\": \"\",\n        \"coverProfilePictures\": [],\n        \"provider\": 0,\n        \"isVerified\": false,\n        \"role\": \"user\",\n        \"expiresAt\": \"2026-02-13T22:28:15.475Z\",\n        \"_id\": \"698fa453c3fbb48e06fcb5e0\",\n        \"createdAt\": \"2026-02-13T22:23:15.532Z\",\n        \"updatedAt\": \"2026-02-13T22:23:15.532Z\",\n        \"__v\": 0,\n        \"userName\": \"Eslam Omar\",\n        \"phone\": \"01063209774\",\n        \"id\": \"698fa453c3fbb48e06fcb5e0\"\n    }\n}"
+              "body": "{\n    \"status\": \"success\",\n    \"message\": \"user created successfully\",\n    \"data\": {\n        \"firstName\": \"Eslam\",\n        \"lastName\": \"Omar\",\n        \"email\": \"eslamelkhabery60@gmail.com\",\n        \"password\": \"$2b$10$kK/kzDySu9I422ZPDmM62.9Iz0OXN2mL2qeTLOuDA2/ZhsdrhBdn2\",\n        \"phoneEncrypted\": \"29cc19cf4bac793161bdec74b30391d6ff2110d7a2fbcddd1a23f9ab232f2b5ea7dfd9d80b27d98eabbb782ebafaaec5cc71474f33fec6cbb1dbb1e8b075b0fb38ba1ebd4616ef1edc14be0a8b04292f604db379c11c3649a8b37dacd4876fc163730cead1f61f4ca71f40\",\n        \"gender\": \"male\",\n        \"profilePic\": \"\",\n        \"coverProfilePictures\": [],\n        \"provider\": 0,\n        \"isVerified\": false,\n        \"role\": \"admin\",\n        \"expiresAt\": \"2026-02-20T23:43:08.787Z\",\n        \"_id\": \"6998f06070ad19cd1377489a\",\n        \"createdAt\": \"2026-02-20T23:38:08.839Z\",\n        \"updatedAt\": \"2026-02-20T23:38:08.839Z\",\n        \"__v\": 0,\n        \"userName\": \"Eslam Omar\",\n        \"phone\": \"01063209774\",\n        \"id\": \"6998f06070ad19cd1377489a\"\n    }\n}"
             },
             {
               "name": "fail",
@@ -185,7 +185,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"email\": \"eslam.O.elkhabery@gmail.com\",\r\n    \"otp\": \"549598\"\r\n}",
+              "raw": "{\r\n    \"email\": \"eslamelkhabery60@gmail.com\",\r\n    \"otp\": \"534384\"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -216,7 +216,7 @@
                 "header": [],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\r\n    \"email\": \"eslamelkhabery60@gmail.com\",\r\n    \"otp\": \"148001\"\r\n}",
+                  "raw": "{\r\n    \"email\": \"eslamelkhabery60@gmail.com\",\r\n    \"otp\": \"534384\"\r\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -263,7 +263,7 @@
                 },
                 {
                   "key": "Date",
-                  "value": "Fri, 13 Feb 2026 22:24:00 GMT"
+                  "value": "Fri, 20 Feb 2026 23:39:14 GMT"
                 },
                 {
                   "key": "Connection",
@@ -354,7 +354,7 @@
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"email\": \"eslam.O.elkhabery@gmail.com\",\r\n    \"password\": \"10102001As@\"\r\n}",
+              "raw": "{\r\n    \"email\": \"eslamelkhabery60@gmail.com\",\r\n    \"password\": \"10102001As@\"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"

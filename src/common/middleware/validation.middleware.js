@@ -17,7 +17,13 @@ export const validation = (schemas) => {
         }
 
         if (validationErrors.length > 0) {
-            return errorResponse(res, validationErrors.join(", "), 400);
+            return errorResponse({
+                res,
+                error: {
+                    message: validationErrors.join(", "),
+                    statusCode: 400
+                }
+            });
         }
 
         next();
